@@ -10,10 +10,14 @@ namespace Module13HW
     {
         static void Main(string[] args)
         {
+            
+            
+            
             BankQueue bankQueue = new BankQueue();
 
             while (true)
             {
+                
                 Console.WriteLine("\nSelect an action:");
                 Console.WriteLine("1. Add client to queue");
                 Console.WriteLine("2. Serve the next customer");
@@ -22,8 +26,13 @@ namespace Module13HW
 
                 string choice = Console.ReadLine();
 
+                
+                
                 switch (choice)
                 {
+                    
+                    
+                    
                     case "1":
                         Console.Write("Enter client's id: ");
                         string clientId = Console.ReadLine();
